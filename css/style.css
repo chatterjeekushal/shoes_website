@@ -381,6 +381,25 @@ transition: all 0.5s ease-in;
 
 
 
+/* lookbook_css_start_here */
+
+
+.lookbook_preant{
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+}
+
+
+.responsive-container{
+
+    width:50%;
+}
+
+
+
 @media only screen and (max-width: 600px) {
 
     .parent {
@@ -540,6 +559,14 @@ body{
     gap: 8px;
 }
 
+
+/* lookbook_css_here */
+
+.responsive-container{
+
+    width: 87%;
+    
+}
 
     }
     
