@@ -399,6 +399,57 @@ transition: all 0.5s ease-in;
 }
 
 
+/* ourstory_css_here */
+
+
+.our_story_hading{
+
+    width: 100%;
+    margin-top: 9rem;
+}
+
+
+.our_story_hading >p{
+
+    width: 50%;
+    
+}
+
+
+
+.our_quality {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+}
+
+
+/* our_story_css_here */
+
+.mission_text{
+
+    width: 50%;
+    margin: auto;
+    
+}
+
+.mission_hading{
+
+    text-align: center;
+    margin-top: 3rem;
+    
+    
+}
+
+
+.our_story_video{
+
+    width: 88%;
+    height: 670px;
+    object-fit: cover;
+}
+
 
 @media only screen and (max-width: 600px) {
 
@@ -566,6 +617,55 @@ body{
 
     width: 87%;
     
+}
+
+
+/* ourstory_css_here */
+
+
+.our_story_hading{
+
+    width: 100%;
+    margin-top: 9rem;
+}
+
+.our_story_hading >p{
+
+    width: 80%;
+    
+}
+
+/* our_story_css_here */
+
+.mission_text{
+
+    width: 90%;
+    margin: auto;
+    
+}
+
+.mission_hading{
+
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+
+
+.our_quality{
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+margin-left: 2rem;
+margin-top: 2rem;
+}
+
+.our_story_video{
+
+    width: 100%;
+    height: 300px;
 }
 
     }
